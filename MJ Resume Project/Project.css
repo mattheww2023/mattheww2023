@@ -1,0 +1,25 @@
+body  {
+background-image: url('https://img.freepik.com/premium-vector/mobile-app-development-background_73903-295.jpg');
+background-size: cover;
+} 
+
+h1 {
+    font-style: courier; 
+    font-style: italic;
+    color: whitesmoke; 
+    position: relative;
+    top: 200px;
+    margin-left: 0px;
+    margin-right: auto;
+
+}
+
+hr.line {
+    border: 5px solid darkslategray;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
