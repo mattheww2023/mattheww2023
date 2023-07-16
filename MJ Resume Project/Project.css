@@ -1,25 +1,117 @@
 body  {
-background-image: url('https://img.freepik.com/premium-vector/mobile-app-development-background_73903-295.jpg');
-background-size: cover;
-} 
+    background-image: url("https://media.istockphoto.com/id/1142550083/vector/falling-random-numbers-blue-matrix-background-stream-of-decimal-digits-vector-illustration.jpg?s=612x612&w=0&k=20&c=xwUyEjkcCjl8gDzW5u3pnNOnIdQVFxC-EXe8CD04b7A=") ;
+    background-size: cover; 
+    background-repeat: no-repeat;  
+    } 
+    
+    h1 {
+        font-style: courier; 
+        font-style: italic;
+        color: whitesmoke; 
+        position: relative;
+        top: 10px;
+        margin-left: 0px;
+        margin-right: auto;
+    
+    }
+    
+    hr.line {
+        border: 5px solid darkslategray;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px; 
+        width: 43%; 
+        margin-left: 0px; 
+        
+        
+    } 
 
-h1 {
-    font-style: courier; 
-    font-style: italic;
-    color: whitesmoke; 
-    position: relative;
-    top: 200px;
-    margin-left: 0px;
-    margin-right: auto;
+    #div1 {
+        background-color: gray;
+        border: 3px solid black;
+        height: calc(100vh - 200px); 
+        border-radius: 10px;
+        width: fit-content;
+        padding: 20px; 
+    
+    } 
 
-}
+    #div2 {
+        background-color: white;
+        border-radius: 10px;
+        border: 5px solid black;
+        width: 110px;
+        height: 110px; 
+        display:flex;
+        flex-direction: column;
+        align-items: center;
 
-hr.line {
-    border: 5px solid darkslategray;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-}
+    }
+
+    #div3 {
+        background-color: white;
+        border-radius: 10px;
+        border: 5px solid black;
+        width: 110px;
+        height: 110px; 
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    #div4 {
+        background-color: white;
+        border-radius: 10px;
+        border: 5px solid black;
+        width: 110px;
+        height: 110px; 
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    img {
+        height: 50px; 
+        width: 50px; 
+        object-fit: fill;
+
+    }
+
+    button {
+        width: fit-content;
+        height:fit-content; 
+       
+    }
+    
+    p {
+        font-style: bold;
+        font-style: courier; 
+        color: black; 
+        text-align: center;
+    }
+
+    .center {
+        height: 200px;
+        width: 200px; 
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #img2 {
+        height: 1000px;
+        width:1000px; 
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #div5 {
+        display:flex;
+    }
+
+
 
